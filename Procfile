@@ -1,1 +1,1 @@
-web: cd frontend/vue-project && npm install && npm run build && cd ../../backend/api-rest && bundle install && ruby app.rb
+web: bash start.sh
