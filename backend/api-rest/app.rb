@@ -133,4 +133,4 @@ delete "/tasks/:id" do
   tasks.delete(task)
   status 204
 end
- 
+ run! if app_file == $0
