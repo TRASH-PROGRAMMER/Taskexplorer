@@ -5,7 +5,7 @@ require "json"
 # configuran el host y el puerto en el que la aplicación escuchará.
 
 set :bind, "0.0.0.0"
-set :port, 21000
+set :port, 3000
 
 # `tasks = []` inicializa una matriz vacía llamada `tasks`. 
 # Esta matriz se usará para almacenar objetos de tarea en la aplicación Ruby Sinatra.
